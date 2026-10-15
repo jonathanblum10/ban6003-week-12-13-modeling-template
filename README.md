@@ -18,24 +18,28 @@ Read the Canvas/LMS lab guide before working in this repository. The LMS page co
 
 - No local data files are required.
 
-Both notebooks build modeling tables from `nycflights13`. Completed outputs belong in `outputs` and are not included in the template.
+Both notebooks build the same flight-level table from `nycflights13` (flights joined with weather and plane age) and use a reproducible sample of 60,000 flights. Completed outputs belong in `outputs` and are not included in the template.
 
 Expected outputs:
 
-- `outputs/linear_regression_metrics_module12.csv`
-- `outputs/linear_model_timing_comparison_module12.csv`
-- `outputs/classification_model_comparison_module13.csv`
-- `outputs/classification_threshold_comparison_module13.csv`
+- Module 12: `outputs/linear_regression_metrics_module12.csv`
+- Module 12: `outputs/linear_model_timing_comparison_module12.csv`
+- Module 13: `outputs/classification_model_comparison_module13.csv`
+- Module 13: `outputs/classification_threshold_comparison_module13.csv`
+
+## Grading
+
+Weeks 12 and 13 share this repository. Week 12 is graded on the Module 12 deadline from the module12 notebook and its two Module 12 output files. Week 13 is graded on the Module 13 deadline from the module13 notebook and its two Module 13 output files.
 
 ## How to Work
 
 1. Create your own GitHub repository from this template.
-2. Use GitHub Codespaces as the main working environment. If you are technically experienced, you may use local conda + VS Code instead.
+2. You can work in GitHub Codespaces or in local VS Code. On the UTSA campus network Codespaces may not connect; use the local setup there (see the Canvas page on local setup).
 3. Install dependencies with `python -m pip install -r requirements.txt` if working locally.
-4. Open the notebooks in the order listed above.
+4. Open the notebook for the current week (Module 12 first, then Module 13).
 5. Run cells from top to bottom.
-6. Complete all `Your Turn`, exercise, checkpoint, and reflection sections.
-7. Save your notebooks and required outputs.
+6. Complete all `Your Turn`, Final Practice, Offline Assignment, and reflection sections.
+7. Save your notebook and its required outputs, then commit and push before that week's deadline.
 8. Submit your GitHub repository link through Canvas.
 
 ## Submit
@@ -46,6 +50,6 @@ If you are using GitHub, a typical commit workflow is:
 
 ```bash
 git add .
-git commit -m "Complete Weeks 12-13 BAN 6003 assignment"
+git commit -m "Complete Module 12 lab"   # use "Module 13" in Week 13
 git push
 ```
