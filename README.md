@@ -16,20 +16,24 @@ Read the Canvas/LMS lab guide before working in this repository. The LMS page co
 
 ## Data and Outputs
 
-- No local data files are required.
+- `data/bike_sharing_daily.csv`: daily bike rentals (Module 12 Final Practice).
+- `data/bank_marketing.csv`: bank call campaign clients (Module 13 Applied Practice).
+- `data/README_data.md`: sources, licenses, and changes for both files.
 
-Both notebooks build the same flight-level table from `nycflights13` (flights joined with weather and plane age) and use a reproducible sample of 60,000 flights. Completed outputs belong in `outputs` and are not included in the template.
+Both notebooks also build the same flight-level table from `nycflights13` (flights joined with weather and plane age) and use a reproducible sample of 60,000 flights. Completed outputs belong in `outputs` and are not included in the template.
 
 Expected outputs:
 
 - Module 12: `outputs/linear_regression_metrics_module12.csv`
+- Module 12: `outputs/bike_demand_metrics_module12.csv`
 - Module 12: `outputs/linear_model_timing_comparison_module12.csv`
 - Module 13: `outputs/classification_model_comparison_module13.csv`
 - Module 13: `outputs/classification_threshold_comparison_module13.csv`
+- Module 13: `outputs/bank_campaign_comparison_module13.csv`
 
 ## Grading
 
-Weeks 12 and 13 share this repository. Week 12 is graded on the Module 12 deadline from the module12 notebook and its two Module 12 output files. Week 13 is graded on the Module 13 deadline from the module13 notebook and its two Module 13 output files.
+Weeks 12 and 13 share this repository. Week 12 is graded on the Module 12 deadline from the module12 notebook and its three Module 12 output files. Week 13 is graded on the Module 13 deadline from the module13 notebook and its three Module 13 output files.
 
 ## How to Work
 
@@ -38,7 +42,7 @@ Weeks 12 and 13 share this repository. Week 12 is graded on the Module 12 deadli
 3. Install dependencies with `python -m pip install -r requirements.txt` if working locally.
 4. Open the notebook for the current week (Module 12 first, then Module 13).
 5. Run cells from top to bottom.
-6. Complete all `Your Turn`, Final Practice, Offline Assignment, and reflection sections.
+6. Complete all `Your Turn`, Final Practice, Offline Assignment, Applied Practice (Module 13), and reflection sections.
 7. Save your notebook and its required outputs, then commit and push before that week's deadline.
 8. Submit your GitHub repository link through Canvas.
 
