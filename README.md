@@ -29,11 +29,11 @@ Expected outputs:
 - Module 12: `outputs/linear_model_timing_comparison_module12.csv`
 - Module 13: `outputs/classification_model_comparison_module13.csv`
 - Module 13: `outputs/classification_threshold_comparison_module13.csv`
-- Module 13: `outputs/bank_campaign_comparison_module13.csv`
+- Module 13 (optional, not graded): `outputs/bank_campaign_comparison_module13.csv`
 
 ## Grading
 
-Weeks 12 and 13 share this repository. Week 12 is graded on the Module 12 deadline from the module12 notebook and its three Module 12 output files. Week 13 is graded on the Module 13 deadline from the module13 notebook and its three Module 13 output files.
+Weeks 12 and 13 share this repository. Week 12 is graded on the Module 12 deadline from the module12 notebook and its three Module 12 output files. Week 13 is graded on the Module 13 deadline from the module13 notebook and its two required Module 13 output files (the Applied Practice and its file are optional).
 
 ## How to Work
 
@@ -42,7 +42,7 @@ Weeks 12 and 13 share this repository. Week 12 is graded on the Module 12 deadli
 3. Install dependencies with `python -m pip install -r requirements.txt` if working locally.
 4. Open the notebook for the current week (Module 12 first, then Module 13).
 5. Run cells from top to bottom.
-6. Complete all `Your Turn`, Final Practice, Offline Assignment, Applied Practice (Module 13), and reflection sections.
+6. Complete all `Your Turn`, Final Practice, Offline Assignment, and reflection sections. The Module 13 Applied Practice is optional.
 7. Save your notebook and its required outputs, then commit and push before that week's deadline.
 8. Submit your GitHub repository link through Canvas.
 
